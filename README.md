@@ -22,6 +22,6 @@ https://medium.com/@paigeshin1991
 
 [Section 6, struct 36 ~ 38](./section6-struct-question-36_38)
 
-[Section 7, initializers 39 ~ 44](./section7-initializers-question-39_48)
+[Section 7, initializers 39 ~ 48](./section7-initializers-question-39_48)
 
 [Section 8, closures 49 ~ 51](./section8-closures-question-49_51)
