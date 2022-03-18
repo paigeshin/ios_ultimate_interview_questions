@@ -131,3 +131,86 @@ weight = Int(killograms)
 ### Question 7 - Does Swift support Implicit Typecasting?
 
 - No
+
+### Question 8 - What is Tuple? When do we use Tuple?
+
+- Tuple is grouping multiple values together into a single variable. Use tuple when you want to return multiple values from a method.
+
+```swift
+
+// Tuple Case 1
+let info: (String, String, Int) = ("Paige", "Seoul", 32)
+print(info.0) // Paige
+print(info.1) // Seoul
+print(info.2) // 32
+// Tuple Case 2 assigning multiple values - Practical Example
+let (name, city, age) = ("Paige", "Seoul", 32)
+print(name) // Paige
+print(city) // Seoul
+print(age) // 32
+// Tuple Case 3 key-value, - Practical Example
+let infomration: (name: String, city: String, age: Int) = (name: "Paige", city: "Seoul", age: 32)
+print(infomration.name) // Paige
+print(infomration.city) // Seoul
+print(infomration.age) // 32
+```
+
+### Question 9 - What is String Interpolation?
+
+- Process of Embedding values inside the String Object is known as String Interpolation.
+
+```swift
+let name: String = "Paige"
+let age: Int = 32
+
+print("Hello, My name is \(name) and I'm \(age) years old")
+// Hello, My name is Paige and I'm 32 years old
+```
+
+### Question 10 - What is Type Aliasing?
+
+- Process of Assigning another name to an existing datatype is known as Type Aliasing.
+
+```swift
+ypealias Number = Int
+
+let age: Number = 34
+
+if age is Int {
+    print("age is obviously int!")
+}
+// age is obviously int!
+```
+
+### Question 11 - Can we use existing keyword as an identifier (variable)?
+
+- By using single tick "`" marks
+
+```swift
+let `let`: Int = 40
+print(`let`) = 40
+```
+
+### Question 12 - "C", is this Character?
+
+- By default, all characters are Strings. Use Type Annotation to consider it as Character.
+
+```swift
+// Type is 'String'
+let initial = "C"
+
+// Type is 'Character'
+let initial: Character = "C"
+```
+
+### Quetion 13 - 10.0 is float?
+
+- By default, all floating point values are doubles. Use Type Annoation to consider it as Float.
+
+```swift
+// Type is 'Double' by default
+let distance = 10.0
+
+// Type is 'Float' with Type Annotation
+let distance: Float = 10.0
+```
