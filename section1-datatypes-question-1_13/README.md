@@ -1,6 +1,8 @@
 # Data Type Questions 1 ~ 13
 
-### Question 1 - What is Datatype? list out a few data types in Swift
+### 1) What is Datatype? list out a few data types in Swift
+
+**Answer**
 
 - Datatype is a keyword which specifies to compiler that what kind of value the declared identifier can store.
 
@@ -43,9 +45,9 @@ let instructor: [String: Any] = [
 let any: Any = 10.19
 ```
 
----
+### 2) let vs var? Constant vs Variable?
 
-### Question 2 - let vs var? Constant vs Variable?
+**Answer**
 
 - Value assigned to constant can not be modified. Use let to declare a constant.
 
@@ -61,9 +63,9 @@ imVariable = 6
 print(imVariable) // 6
 ```
 
----
+### 3) What is Type Inference?
 
-### Question 3 - What is Type Inference?
+**Answer**
 
 - The process of compiler identifying the datatype of an identifier based on the value to that identifier.
 
@@ -72,9 +74,9 @@ var anyInt = 3 // compiler will identify `anyInt` as Int
 var anyString = "test" // compiler will identify `anyString` as String
 ```
 
----
+### 4) What is Type Annotation?
 
-### Question 4 - What is Type Annotation?
+**Answer**
 
 - Process of explicitly specifying the datatype of variable is known as Type Annotation.
 
@@ -83,9 +85,9 @@ var imExplicitlyInt: Int = 5
 var imExplicitlyString: String = "string"
 ```
 
----
+### 5) How Swift is Type Safe Language?
 
-### Question 5 - How Swift is Type Safe Language?
+**Answer**
 
 - Swift is Type Safe Language because it doesn't allow Implicit Type Casting.
 
@@ -116,9 +118,9 @@ num = Int(Fnum)!
 
 ```
 
----
+### 6) What is Type Casting? Give me an example?
 
-### Question 6 - What is Type Casting? Give me an example?
+**Answer**
 
 - The process of converting one datatype value into another datatype value is known as Typecasting.
 
@@ -132,15 +134,15 @@ weight = Int(killograms)
 
 ```
 
----
+### 7) Does Swift support Implicit Typecasting?
 
-### Question 7 - Does Swift support Implicit Typecasting?
+**Answer**
 
 - No
 
----
+### 8) What is Tuple? When do we use Tuple?
 
-### Question 8 - What is Tuple? When do we use Tuple?
+**Answer**
 
 - Tuple is grouping multiple values together into a single variable. Use tuple when you want to return multiple values from a method.
 
@@ -163,9 +165,9 @@ print(infomration.city) // Seoul
 print(infomration.age) // 32
 ```
 
----
+### 9) What is String Interpolation?
 
-### Question 9 - What is String Interpolation?
+**Answer**
 
 - Process of Embedding values inside the String Object is known as String Interpolation.
 
@@ -177,9 +179,9 @@ print("Hello, My name is \(name) and I'm \(age) years old")
 // Hello, My name is Paige and I'm 32 years old
 ```
 
----
+### 10) What is Type Aliasing?
 
-### Question 10 - What is Type Aliasing?
+**Answer**
 
 - Process of Assigning another name to an existing datatype is known as Type Aliasing.
 
@@ -194,9 +196,9 @@ if age is Int {
 // age is obviously int!
 ```
 
----
+### 11) Can we use existing keyword as an identifier (variable)?
 
-### Question 11 - Can we use existing keyword as an identifier (variable)?
+**Answer**
 
 - By using single tick "`" marks
 
@@ -205,9 +207,9 @@ let `let`: Int = 40
 print(`let`) = 40
 ```
 
----
+### 12) "C", is this Character?
 
-### Question 12 - "C", is this Character?
+**Answer**
 
 - By default, all characters are Strings. Use Type Annotation to consider it as Character.
 
@@ -219,9 +221,9 @@ let initial = "C"
 let initial: Character = "C"
 ```
 
----
+### 13) 10.0 is float?
 
-### Quetion 13 - 10.0 is float?
+**Answer**
 
 - By default, all floating point values are doubles. Use Type Annoation to consider it as Float.
 
@@ -232,5 +234,3 @@ let distance = 10.0
 // Type is 'Float' with Type Annotation
 let distance: Float = 10.0
 ```
-
----

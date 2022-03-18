@@ -1,6 +1,8 @@
 # Operator Questions 14 ~ 16
 
-### Question 14 - What are the operators available in Swift?
+### 14) What are the operators available in Swift?
+
+**Answer**
 
 `Operators`
 
@@ -19,9 +21,9 @@
 - Half Opened Range (1..<10)
 - One Sided Range Operators (2..)
 
----
+### 15) Can you explain different range operators in Swift?
 
-### Question 15 - Can you explain different range operators in Swift?
+**Answer**
 
 ```swift
 let n: Int = 3
@@ -43,9 +45,9 @@ for value in numbers[5...] {
 }
 ```
 
----
+### 16) What is identity operator in Swift?
 
-### Question 16 - What is identity operator in Swift?
+**Answer**
 
 - === and !== are the identity Operators in Swift. This is only used for Object Types. In other words, it's not used for Value Types.
 
@@ -61,5 +63,3 @@ let a3: A = a2
 print(a1 === a2) // false
 print(a2 === a3) // true, referencing the same memory
 ```
-
----

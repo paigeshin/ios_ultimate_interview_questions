@@ -1,6 +1,8 @@
 # Operator Questions 17 ~ 22
 
-### Question 17 - What are the conditional statements available in Swift?
+### 17) What are the conditional statements available in Swift?
+
+**Answer**
 
 - if
 - if-else
@@ -40,9 +42,9 @@ switch isAlien {
 }
 ```
 
----
+### 18) What is fast enumeration in Swift?
 
-### Question 18 - What is fast enumeration in Swift?
+**Answer**
 
 - Process of iterating through all elements of a collection in an efficient way. It is faster than general for loop.
 
@@ -53,9 +55,9 @@ for number in numbers {
 }
 ```
 
----
+### 19) What is the difference between 'while' and 'repeat-while loops' in swift?
 
-### Question 19 - What is the difference between 'while' and 'repeat-while loops' in swift?
+**Answer**
 
 - While is `entry control` loop whereas do-while is `exit control` loop
 - `entry control` loop versus `exit control` loop
@@ -78,9 +80,9 @@ repeat {
 } while i < 5
 ```
 
----
+### 20) What is switch case and how to declare a swift switch case?
 
-### Question 20 - What is switch case and how to declare a swift switch case?
+**Answer**
 
 - Switch is one of the conditional statements. It is an alternate to general if-else ladder statement.
 
@@ -109,15 +111,15 @@ _Professional Tips_
 
 - Use switch when handling network status code.
 
----
+### 21) Is default case necessary in Swift's Switch case?
 
-### Question 21 - Is default case necessary in Swift's Switch case?
+**Answer**
 
 - Default case is necessary in switch case, otherwise, you will see `Switch must be exhasutive` message.
 
----
+### 22) What is Fall-through keyword in swift?
 
-### Quesetion 22 - What is Fall-through keyword in swift?
+**Answer**
 
 - Fall-through executes the next followed case irrespective of case matching. Place dependent case below the fall-through case
 
@@ -139,5 +141,3 @@ default:
     break
 }
 ```
-
----

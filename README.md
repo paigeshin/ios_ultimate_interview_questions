@@ -15,3 +15,13 @@ https://medium.com/@paigeshin1991
 [Section 2, Operator Questions 14 ~ 16](./section2-operator-question-14_16)
 
 [Section 3, Conditional Statement Questions 17 ~ 22](./section3-conditional-statement-question-17_22)
+
+[Section 4, Enum 23 ~ 28](./section4-enum-question-23_28)
+
+[Section 5, functions 29 ~ 35](./section5-function-question-29_35)
+
+[Section 6, struct 36 ~ 38](./section6-struct-question-36_38)
+
+[Section 7, initializers 39 ~ 44](./section7-initializers-question-39_44)
+
+[Section 8, closures 49 ~ 51](./section8-closures-question-49_51)
