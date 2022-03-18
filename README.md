@@ -4,6 +4,10 @@
 
 - If you are an intermediate and an advanced swift developer, make sure you know all these questions and try to answer it instantly without answers.
 
+# Plese, follow me if you want more professional tips
+
+https://medium.com/@paigeshin1991
+
 # Table Of Contents
 
 [Section 1, Data Type Questions 1 ~ 13](./section1-datatypes-question-1_13)

@@ -1,4 +1,4 @@
-# Data Type Questions
+# Data Type Questions 1 ~ 13
 
 ### Question 1 - What is Datatype? list out a few data types in Swift
 
@@ -232,3 +232,5 @@ let distance = 10.0
 // Type is 'Float' with Type Annotation
 let distance: Float = 10.0
 ```
+
+---
