@@ -89,7 +89,7 @@ var imExplicitlyString: String = "string"
 
 - If you declare as Int and if you try to store Double , Swift doesn't allow.
 
-````c
+```c
 // In C Language, Implicit Type Casting is allowed
 
 int num;
@@ -99,6 +99,8 @@ float Fnum = 123.953;
 num = Fnum;
 
 printf("%d\n", num); // returns 123.000. This is implicit type casting. In Swift, you cannot do that.
+```
+
 ```swift
 // In Swift, Implicit Type Casting is not allowed
 
@@ -110,7 +112,7 @@ num = Fnum // Error
 // Correct Way
 num = Int(Fnum)!
 
-````
+```
 
 ### Question 6 - What is Type Casting? Give me an example?
 
