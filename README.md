@@ -4,7 +4,7 @@
 
 - If you are an intermediate and an advanced swift developer, make sure you know all these questions and try to answer it instantly without answers.
 
-# Plese, follow me if you want more professional tips
+# Please, follow me if you want more professional tips
 
 https://medium.com/@paigeshin1991
 
@@ -13,3 +13,5 @@ https://medium.com/@paigeshin1991
 [Section 1, Data Type Questions 1 ~ 13](./section1-datatypes-question-1_13)
 
 [Section 2, Operator Questions 14 ~ 16](./section2-operator-question-14_16)
+
+[Section 3, Conditional Statement Questions 17 ~ 22](./section3-conditional-statement-question-17_22)
