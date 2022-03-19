@@ -25,3 +25,7 @@ https://medium.com/@paigeshin1991
 [Section 7, initializers 39 ~ 48](./section7-initializers-question-39_48)
 
 [Section 8, closures 49 ~ 51](./section8-closures-question-49_51)
+
+[Section 9, OOP 56 ~ 82](./section9-oop-question-56_82)
+
+[Section 10, static type vs dynamic type 83 ~ 87](./section10-static_dynamic_type_difference-question_83_87)
