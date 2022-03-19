@@ -136,7 +136,7 @@ func someMethod(arg1: String, arg2: String, completion: () -> Void) {
 }
 ```
 
-### 55) What is shorthand syntax for Closures?
+### 55) What is the shorthand syntax for Closures?
 
 **Answer:**
 
