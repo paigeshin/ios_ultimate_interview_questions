@@ -1,6 +1,6 @@
 # ObjectiveC 171 ~ 184
 
-### 171) What id id?
+### 171) What is id?
 
 **Answer:**
 
