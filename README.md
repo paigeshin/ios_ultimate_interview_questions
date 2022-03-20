@@ -29,3 +29,31 @@ https://medium.com/@paigeshin1991
 [Section 9, OOP 56 ~ 82](./section9-oop-question-56_82)
 
 [Section 10, static type vs dynamic type 83 ~ 87](./section10-static_dynamic_type_difference-question_83_87)
+
+[Section 11, optional 88 ~ 104](./section11-optional-question-88_104/)
+
+[Section 12, generic 105 ~ 108](./section12-generic-question-105_108/)
+
+[Section 13, subscript 109](./section13-subscriont-question-109/)
+
+[Section 14, access specifier 110 ~ 114](./section14-access-specifier-110_114/)
+
+[Section 15, access modifier 115 ~ 120](./section15-higher_order_fuctions-question-115_120/)
+
+[Section 16, delegate 121 ~ 122](./section16-delegate-question-121_122/)
+
+[Section 17, extension 123 ~ 128](./section17-extension-qeustion-123_128/)
+
+[Section 18, Memory Management 129 ~ 143](./section18-memory_management-question-129_142/)
+
+[Section 19, protocols 144 ~ 154](./section19-protocols-question-143_154/)
+
+[Section 20, collections 155 ~ 158](./section20-collections-155_158/)
+
+[Section 21, KVO and KVC 159 ~ 164](./section21-kvo_kvc-question-159_164/)
+
+[Section 22, Exception Handling 165 ~ 167](./section22-exeception_handling-question-165_167/)
+
+[Section 23, Framework 168 ~ 170](./section23-framework-question-168_170/)
+
+[Section 24, Objective-C 171 ~ 184](./section24-objective_c-question-174_184/)
