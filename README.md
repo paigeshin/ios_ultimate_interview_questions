@@ -44,9 +44,9 @@ https://medium.com/@paigeshin1991
 
 [Section 17, extension 123 ~ 128](./section17-extension-qeustion-123_128/)
 
-[Section 18, Memory Management 129 ~ 143](./section18-memory_management-question-129_142/)
+[Section 18, Memory Management 129 ~ 142](./section18-memory_management-question-129_142/)
 
-[Section 19, protocols 144 ~ 154](./section19-protocols-question-143_154/)
+[Section 19, protocols 143 ~ 154](./section19-protocols-question-143_154/)
 
 [Section 20, collections 155 ~ 158](./section20-collections-155_158/)
 
