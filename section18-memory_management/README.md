@@ -1,6 +1,6 @@
 # Memory Management 129 ~ 142
 
-### 129) What is the concept of the Memory Management?
+### 1) What is the concept of the Memory Management?
 
 **Answer:**
 
@@ -14,13 +14,13 @@ car.stop()
 car = nil //release
 ```
 
-### 130) What is Manual Memory Management?
+### 2) What is Manual Memory Management?
 
 **Answer:**
 
 - Prior to ARC, developer was responsible for retaining and releasing the objects’ memory using **release**, **retain** and **autorelease**.
 
-### 131) What is ARC?
+### 3) What is ARC?
 
 **Answer:**
 
@@ -30,13 +30,13 @@ car = nil //release
   - Delegates
   - Outlets
 
-### 132) What is Memory Leak?
+### 4) What is Memory Leak?
 
 **Answer:**
 
 - Memory Leak is a situation where the runtime system fails to release the memory of unused objects.
 
-### 133) What is Strong?
+### 5) What is Strong?
 
 **Answer:**
 
@@ -66,7 +66,7 @@ anotherCar?.move() // Car is moving, not released
 anotherCar!.move() // Car is moving, not released
 ```
 
-### 134) What is Weak?
+### 6) What is Weak?
 
 **Answer:**
 
@@ -94,7 +94,7 @@ anotherCar?.move() // Not executing. released
 anotherCar!.move() // Crash happens
 ```
 
-### 135) strong vs weak
+### 7) strong vs weak
 
 **Answer:**
 
@@ -103,13 +103,13 @@ anotherCar!.move() // Crash happens
   - **strong** shares the ownership of the object and increases the reference count by 1.
   - **weak** shares the ownership and doesn’t increase the reference of that object.
 
-### 136) What is Retain Cycle?
+### 8) What is Retain Cycle?
 
 **Answer:**
 
 - When two objects are pointing each other strongly and ARC fails to release memory. It leads to memory leaks. This situation is called **Retain / Reference Cycle.**
 
-### 137) What are the different places we use weak?
+### 9) What are the different places we use weak?
 
 **Answer:**
 
@@ -177,7 +177,7 @@ person = nil // Human is released
 heart = nil // Heart is released
 ```
 
-### 138) weak vs unowned
+### 10) weak vs unowned
 
 **Answer:**
 
@@ -188,13 +188,13 @@ heart = nil // Heart is released
 - You can use **unowned** when the other instance has the same life time or the longer lifetime.
 - Use **unowned**, when you are sure it is not nil.
 
-### 139) Is ARC compile time mechanism or run time mechanism?
+### 11) Is ARC compile time mechanism or run time mechanism?
 
 **Answer:**
 
 - Compile Time
 
-### 140) What is the difference between ARC and Garbage Collector?
+### 12) What is the difference between ARC and Garbage Collector?
 
 **Answer:**
 
@@ -207,13 +207,13 @@ heart = nil // Heart is released
 - GC resolves retain cycles automatically.
 - ARC doesn’t resolve retain cycles automatically.
 
-### 141) What is circular reference?
+### 13) What is circular reference?
 
 **Answer:**
 
 - When two objects are pointing each other strongly and ARC fails to release memory.
 
-### 142) How do you identify the retain cycle in iOS?
+### 14) How do you identify the retain cycle in iOS?
 
 **Answer:**
 
