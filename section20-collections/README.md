@@ -1,6 +1,6 @@
-# Collections 155 ~ 158
+# Collections 1 ~ 4
 
-### 155) What are the collections available in Swift?
+### 1) What are the collections available in Swift?
 
 **Answer:**
 
@@ -38,7 +38,7 @@ for (key, value) in dic {
 }
 ```
 
-### 156) What is the difference between Array and Set?
+### 2) What is the difference between Array and Set?
 
 **Answer:**
 
@@ -65,7 +65,7 @@ for i in aSet {
 }
 ```
 
-### 157) What is the difference between Tuple vs Dictionary?
+### 3) What is the difference between Tuple vs Dictionary?
 
 **Answer:**
 
@@ -78,7 +78,7 @@ for i in aSet {
 - Tuple has no methods to perform operations.
 - Dictionary has set of methods to perform operations.
 
-### 158) Is String, Array, Dictionary and Set are Classes or Structures?
+### 4) Is String, Array, Dictionary and Set are Classes or Structures?
 
 **Answer:**
 
