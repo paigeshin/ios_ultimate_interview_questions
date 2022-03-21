@@ -38,7 +38,7 @@ https://medium.com/@paigeshin1991
 
 [Section 14, access specifier](./section14-access-specifier/)
 
-[Section 15, access modifier](./section15-higher_order_fuctions/)
+[Section 15, higher order function](./section15-higher_order_fuctions/)
 
 [Section 16, delegate](./section16-delegate/)
 
