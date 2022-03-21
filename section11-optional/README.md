@@ -1,6 +1,6 @@
-# Optional Questions 88 ~ 104
+# Optional Questions 1 ~ 17
 
-### 88) What is Optional and How to declare an Optional?
+### 1) What is Optional and How to declare an Optional?
 
 **Answer:**
 
@@ -15,7 +15,7 @@ var bOptional: Int!
 var geneal: Int = nil
 ```
 
-### 89) What is Optional Unwrapping and What are the different ways to unwrap optionals?
+### 2) What is Optional Unwrapping and What are the different ways to unwrap optionals?
 
 **Answer:**
 
@@ -25,7 +25,7 @@ var geneal: Int = nil
 - Guard Statement
 - Nil Coalescing Operator (??)
 
-### 90) What is Implicit Unwrapping and how to declare implicit unwrapped Optional? When do you declare an implicit optional variable?
+### 3) What is Implicit Unwrapping and how to declare implicit unwrapped Optional? When do you declare an implicit optional variable?
 
 **Answer:**
 
@@ -40,7 +40,7 @@ bOptional = 10
 let sum: Int = aOptional! + bOptional
 ```
 
-### 91) What is Optional Binding?
+### 4) What is Optional Binding?
 
 **Answer:**
 
@@ -60,7 +60,7 @@ if let unwrappedAOptional = aOptional {
 }
 ```
 
-### 92) What is ?? in Swift?
+### 5) What is ?? in Swift?
 
 **Answer:**
 
@@ -74,7 +74,7 @@ var aOptional: Int?
 print(aOptional ?? 0) // 0
 ```
 
-### 93) What is guard statement?
+### 6) What is guard statement?
 
 **Answer:**
 
@@ -94,7 +94,7 @@ guard let unwrappedAOptional: Int = aOptional else {
 print(unwrappedAOptional) // 15
 ```
 
-### 94) What is Force unwrapping in Swift?
+### 7) What is Force unwrapping in Swift?
 
 **Answer:**
 
@@ -108,7 +108,7 @@ var aOptional: Int?
 print(aOptional)
 ```
 
-### 95) What is the difference between Optional Binding and Guard statement?
+### 8) What is the difference between Optional Binding and Guard statement?
 
 **Answer:**
 
@@ -133,7 +133,7 @@ let sum: Int = unwrappedAOptional + bOptional
 print(sum) // 30
 ```
 
-### 96) Can we access guard statement variable inside the else block?
+### 9) Can we access guard statement variable inside the else block?
 
 **Answer:**
 
@@ -148,7 +148,7 @@ guard let unwrappedAOptional = aOptinoal else {
 }
 ```
 
-### 97) Is optional Enum Type or Struct Type?
+### 10) Is optional Enum Type or Struct Type?
 
 **Answer:**
 
@@ -156,7 +156,7 @@ guard let unwrappedAOptional = aOptinoal else {
   - none
   - some
 
-### 98) Can we use var in optional binding or guard statement instead of let?
+### 11) Can we use var in optional binding or guard statement instead of let?
 
 **Answer:**
 
@@ -172,7 +172,7 @@ if var value = aOptional {
 guard var value = aOptional else { return }
 ```
 
-### 99) What is fast enumeration?
+### 12) What is fast enumeration?
 
 **Answer:**
 
@@ -184,7 +184,7 @@ for value in data {
 }
 ```
 
-### 100) What is Optional Chaining?
+### 13) What is Optional Chaining?
 
 **Answer:**
 
@@ -208,7 +208,7 @@ let store: Store? = Store()
 store?.brand?.title
 ```
 
-### 101) What is the difference between nil and .none?
+### 14) What is the difference between nil and .none?
 
 **Answer:**
 
@@ -231,7 +231,7 @@ print(store?.brand?.found == nil) // true
 
 ```
 
-### 102) What happens when you call a method over optional whose value is nil?
+### 15) What happens when you call a method over optional whose value is nil?
 
 **Answer:**
 
@@ -259,7 +259,7 @@ store?.brand.displayTitle()
 
 ```
 
-### 103) What is Type Checking Operator in Swift?
+### 16) What is Type Checking Operator in Swift?
 
 **Answer:**
 
@@ -275,7 +275,7 @@ if someVar is String {
 }
 ```
 
-### 104) What is as?, as! in Swift?
+### 17) What is as?, as! in Swift?
 
 **Answer:**
 
