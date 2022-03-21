@@ -1,6 +1,6 @@
-# Delegate 121 ~ 122
+# Delegate 1 ~ 2
 
-### 121) What is Delegation?
+### 1) What is Delegation?
 
 **Answer:**
 
@@ -42,7 +42,7 @@ let b: B = B(a: a)
 a.makeEvent() // class A made an event
 ```
 
-### 122) Can delegate be a weak and why delegate must be weak?
+### 2) Can delegate be a weak and why delegate must be weak?
 
 **Answer:**
 
