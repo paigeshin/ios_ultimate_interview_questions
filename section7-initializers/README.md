@@ -1,6 +1,6 @@
-# Initializer Questions 39 ~ 48
+# Initializer Questions 1 ~ 9
 
-### 39) What is initializer?
+### 1) What is initializer?
 
 **Answer:**
 
@@ -14,7 +14,7 @@ struct SomeStruct {
 }
 ```
 
-### 40) What are the different types of initializers available in Swift?
+### 2) What are the different types of initializers available in Swift?
 
 **Answer:**
 
@@ -89,7 +89,7 @@ struct SomeStructWithRequiredInitializer: SomeStructProtocol {
 
 ```
 
-### 41) What is the default initializer in Swift?
+### 3) What is the default initializer in Swift?
 
 **Answer:**
 
@@ -109,7 +109,7 @@ class SomeCalss {
 }
 ```
 
-### 42) What is parameterized / Custom Initializer?
+### 4) What is parameterized / Custom Initializer?
 
 **Answer:**
 
@@ -145,13 +145,13 @@ let purpleCar: Car = Car(model: 2022, color: "Purple")
 print(purpleCar.color) // Purple
 ```
 
-### 43) What is designated initializer in Swift?
+### 5) What is designated initializer in Swift?
 
 **Answer:**
 
 Default init method is the designated initializer
 
-### 44) What is convenience initializer in Swift?
+### 6) What is convenience initializer in Swift?
 
 **Answer:**
 
@@ -210,7 +210,7 @@ class Car {
 }
 ```
 
-### 46) Can I declare a convenience initializer without designated initializer?
+### 7) Can I declare a convenience initializer without designated initializer?
 
 **Answer:**
 
@@ -238,7 +238,7 @@ class Car {
 }
 ```
 
-### 47) What is deinit? Can we call deinit method?
+### 8) What is deinit? Can we call deinit method?
 
 **Answer:**
 
@@ -270,7 +270,7 @@ car = nil // Clear Car Object From Memory
 car.deinit // not callable
 ```
 
-### 48) Designated Initializer vs Convenience Initializer
+### 9) Designated Initializer vs Convenience Initializer
 
 **Answer:**
 
