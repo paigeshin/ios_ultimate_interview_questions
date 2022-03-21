@@ -1,4 +1,4 @@
-# Initializer Questions 1 ~ 9
+# Initializer Questions 1 ~ 10
 
 ### 1) What is initializer?
 

@@ -1,6 +1,6 @@
-# closure questions 49 ~ 55
+# closure questions 1 ~ 7
 
-### 49) What is Closure? How to declare closures?
+### 1) What is Closure? How to declare closures?
 
 **Answer:**
 
@@ -37,7 +37,7 @@ emptyFunction() // This is empty function
 emptyClosure() // This is empty closure
 ```
 
-### 50) What is completion handler in Swift?
+### 2) What is completion handler in Swift?
 
 **Answer:**
 
@@ -54,7 +54,7 @@ methodThatExpects { (a, b) -> Int in
 }
 ```
 
-### 51) How to avoid retain cycle in closures?
+### 3) How to avoid retain cycle in closures?
 
 **Answer:**
 
@@ -81,7 +81,7 @@ class Example {
 }
 ```
 
-### 52) What is escaping Closure?
+### 4) What is escaping Closure?
 
 **Answer:**
 
@@ -118,13 +118,13 @@ networkService.call {
 
 ```
 
-### 53) Does closure capture values?
+### 5) Does closure capture values?
 
 **Answer:**
 
 - Yes closures capture values
 
-### 54) What is Trailing Closure?
+### 6) What is Trailing Closure?
 
 **Answer:**
 
@@ -136,7 +136,7 @@ func someMethod(arg1: String, arg2: String, completion: () -> Void) {
 }
 ```
 
-### 55) What is the shorthand syntax for Closures?
+### 7) What is the shorthand syntax for Closures?
 
 **Answer:**
 
