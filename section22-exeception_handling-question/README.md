@@ -1,6 +1,6 @@
-# Exception Handling 165 ~ 167
+# Exception Handling 1 ~ 3
 
-### 165) What is an Exception? What is Exception Handling?
+### 1) What is an Exception? What is Exception Handling?
 
 **Answer:**
 
@@ -8,13 +8,13 @@
 - The process of Handling the runtime errors is known as **Exception Handling.**
 - Use **do**, **try**, **catch**, **throw** and **throws** to achieve exception handling.
 
-### 166) What are the advantages of exception handling?
+### 2) What are the advantages of exception handling?
 
 **Answer:**
 
 - Exception Handling is helpful to co-workers of a team to indicate that there is some **dangerous code, “**please be cautious while using that piece of code”.
 
-### 167) What is defer keyword?
+### 3) What is defer keyword?
 
 **Answer:**
 
