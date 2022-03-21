@@ -10,11 +10,11 @@ https://medium.com/@paigeshin1991
 
 # Table Of Contents
 
-[Section 1, Data Type Questions](./section1-datatypes/)
+[Section 1, Data Type](./section1-datatypes/)
 
-[Section 2, Operator Questions](./section2-operator/)
+[Section 2, Operator](./section2-operator/)
 
-[Section 3, Conditional Statement Questions](./section3-conditional-statement/)
+[Section 3, Conditional Statement](./section3-conditional-statement/)
 
 [Section 4, Enum](./section4-enum/)
 
