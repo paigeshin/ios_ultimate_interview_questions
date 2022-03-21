@@ -186,7 +186,7 @@ print(car.model) // 2024
 
 ```
 
-### 45) What is failable initializer in Swift?
+### 7) What is failable initializer in Swift?
 
 **Answer:**
 
@@ -210,7 +210,7 @@ class Car {
 }
 ```
 
-### 7) Can I declare a convenience initializer without designated initializer?
+### 8) Can I declare a convenience initializer without designated initializer?
 
 **Answer:**
 
@@ -238,7 +238,7 @@ class Car {
 }
 ```
 
-### 8) What is deinit? Can we call deinit method?
+### 9) What is deinit? Can we call deinit method?
 
 **Answer:**
 
@@ -270,7 +270,7 @@ car = nil // Clear Car Object From Memory
 car.deinit // not callable
 ```
 
-### 9) Designated Initializer vs Convenience Initializer
+### 10) Designated Initializer vs Convenience Initializer
 
 **Answer:**
 
