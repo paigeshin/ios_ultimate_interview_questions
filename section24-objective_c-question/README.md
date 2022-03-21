@@ -1,4 +1,4 @@
-# ObjectiveC 171 ~ 184
+# ObjectiveC 1 ~ 14
 
 ### 1) What is id?
 
