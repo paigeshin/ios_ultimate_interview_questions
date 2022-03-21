@@ -1,12 +1,12 @@
 # Protocols 143 ~ 154
 
-### 143) What is Protocol? What kind of methods the protocol contains?
+### 1) What is Protocol? What kind of methods the protocol contains?
 
 **Answer:**
 
 - Protocol is a set of Property and Method declarations which are expected to be implemented in the adopting class.
 
-### 144) Can we define methods in Protocol?
+### 2) Can we define methods in Protocol?
 
 **Answer:**
 
@@ -40,7 +40,7 @@ struct Calculator: AProtocol {
 }
 ```
 
-### 145) Can we extend Protocols?
+### 3) Can we extend Protocols?
 
 **Answer:**
 
@@ -94,7 +94,7 @@ struct Calculator: AProtocol {
 }
 ```
 
-### 146) How to adopt protocols or how to conform protocol?
+### 4) How to adopt protocols or how to conform protocol?
 
 **Answer:**
 
@@ -104,7 +104,7 @@ extension ObjectName: ProtocolName {
 }
 ```
 
-### 147) How to declare ‘class-only’ adoptable protocol?
+### 5) How to declare ‘class-only’ adoptable protocol?
 
 **Answer:**
 
@@ -122,7 +122,7 @@ struct Calculator: AProtocol {
 }
 ```
 
-### 148) How to declare Optional Methods and Properties in Protocols?
+### 6) How to declare Optional Methods and Properties in Protocols?
 
 **Answer:**
 
@@ -131,7 +131,7 @@ struct Calculator: AProtocol {
   - @objc optional func methodName()
   - But this protocol is only available to **class-type**
 
-### 149) What are the advantages of Protocols?
+### 7) What are the advantages of Protocols?
 
 **Answer:**
 
@@ -166,7 +166,7 @@ struct aStruct: AProtocol, BProtocol {
 }
 ```
 
-### 150) How to provide default implementation for protocol methods?
+### 8) How to provide default implementation for protocol methods?
 
 **Answer:**
 
@@ -220,7 +220,7 @@ struct Calculator: AProtocol {
 }
 ```
 
-### 151) Can we declare stored properties in Protocols?
+### 9) Can we declare stored properties in Protocols?
 
 **Answer:**
 
@@ -249,19 +249,19 @@ extension AProtocol {
 }
 ```
 
-### 152) What is the default behavior of Protocol Methods?
+### 10) What is the default behavior of Protocol Methods?
 
 **Answer:**
 
 - By default, all methods in Protocol are **required.**
 
-### 153) Can we declare an optional variable as let?
+### 11) Can we declare an optional variable as let?
 
 **Answer:**
 
 - No, Optional variables are not expected to have a value in future. So to set or assign a value in future, the optional variable must be **var.**
 
-### 154) Is Swift Object-Oriented Language or Protocol Oriented Programming Language?
+### 12) Is Swift Object-Oriented Language or Protocol Oriented Programming Language?
 
 **Answer:**
 

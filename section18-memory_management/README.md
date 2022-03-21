@@ -1,4 +1,4 @@
-# Memory Management 129 ~ 142
+# Memory Management 1 ~ 14
 
 ### 1) What is the concept of the Memory Management?
 
