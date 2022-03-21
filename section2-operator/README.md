@@ -1,6 +1,6 @@
-# Operator Questions 14 ~ 16
+# Operator Questions 1 ~ 3
 
-### 14) What are the operators available in Swift?
+### 1) What are the operators available in Swift?
 
 **Answer**
 
@@ -21,7 +21,7 @@
 - Half Opened Range (1..<10)
 - One Sided Range Operators (2..)
 
-### 15) Can you explain different range operators in Swift?
+### 2) Can you explain different range operators in Swift?
 
 **Answer**
 
@@ -45,7 +45,7 @@ for value in numbers[5...] {
 }
 ```
 
-### 16) What is identity operator in Swift?
+### 3) What is identity operator in Swift?
 
 **Answer**
 

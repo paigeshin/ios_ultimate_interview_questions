@@ -1,6 +1,6 @@
-# struct questions 36 ~ 38
+# struct questions 1 ~ 3
 
-### 36) What is struct? How to declare a structure?
+### 1) What is struct? How to declare a structure?
 
 **Answer:**
 
@@ -26,7 +26,7 @@ car.start()
 car.stop()
 ```
 
-### 37) What is mutating keyword in Swift?
+### 2) What is mutating keyword in Swift?
 
 **Answer:**
 
@@ -60,7 +60,7 @@ car.speedUp(newSpeed: 5)
 print(car.speed) // 5
 ```
 
-### 38) Is struct Value type or Reference Type?
+### 3) Is struct Value type or Reference Type?
 
 - Structure is a value type. Structure values are copied when you pass then to a method.
 

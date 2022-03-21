@@ -10,50 +10,50 @@ https://medium.com/@paigeshin1991
 
 # Table Of Contents
 
-[Section 1, Data Type Questions 1 ~ 13](./section1-datatypes-question-1_13)
+[Section 1, Data Type Questions](./section1-datatypes/)
 
-[Section 2, Operator Questions 14 ~ 16](./section2-operator-question-14_16)
+[Section 2, Operator Questions](./section2-operator/)
 
-[Section 3, Conditional Statement Questions 17 ~ 22](./section3-conditional-statement-question-17_22)
+[Section 3, Conditional Statement Questions](./section3-conditional-statement/)
 
-[Section 4, Enum 23 ~ 28](./section4-enum-question-23_28)
+[Section 4, Enum](./section4-enum/)
 
-[Section 5, functions 29 ~ 35](./section5-function-question-29_35)
+[Section 5, functions](./section5-function/)
 
-[Section 6, struct 36 ~ 38](./section6-struct-question-36_38)
+[Section 6, struct](./section6-struct/)
 
-[Section 7, initializers 39 ~ 48](./section7-initializers-question-39_48)
+[Section 7, initializers](./section7-initializers/)
 
-[Section 8, closures 49 ~ 51](./section8-closures-question-49_51)
+[Section 8, closures](./section8-closures/)
 
-[Section 9, OOP 56 ~ 82](./section9-oop-question-56_82)
+[Section 9, OOP](./section9-oop/)
 
-[Section 10, static type vs dynamic type 83 ~ 87](./section10-static_dynamic_type_difference-question_83_87)
+[Section 10, static type vs dynamic type](./section10-static_dynamic_type_difference/)
 
-[Section 11, optional 88 ~ 104](./section11-optional-question-88_104/)
+[Section 11, optional](./section11-optional/)
 
-[Section 12, generic 105 ~ 108](./section12-generic-question-105_108/)
+[Section 12, generic](./section12-generic/)
 
-[Section 13, subscript 109](./section13-subscriont-question-109/)
+[Section 13, subscript](./section13-subscript/)
 
-[Section 14, access specifier 110 ~ 114](./section14-access-specifier-110_114/)
+[Section 14, access specifier](./section14-access-specifier/)
 
-[Section 15, access modifier 115 ~ 120](./section15-higher_order_fuctions-question-115_120/)
+[Section 15, access modifier](./section15-higher_order_fuctions/)
 
-[Section 16, delegate 121 ~ 122](./section16-delegate-question-121_122/)
+[Section 16, delegate](./section16-delegate/)
 
-[Section 17, extension 123 ~ 128](./section17-extension-qeustion-123_128/)
+[Section 17, extension](./section17-extension/)
 
-[Section 18, Memory Management 129 ~ 142](./section18-memory_management-question-129_142/)
+[Section 18, Memory Management](./section18-memory_management/)
 
-[Section 19, protocols 143 ~ 154](./section19-protocols-question-143_154/)
+[Section 19, protocols](./section19-protocols/)
 
-[Section 20, collections 155 ~ 158](./section20-collections-155_158/)
+[Section 20, collections](./section20-collections/)
 
-[Section 21, KVO and KVC 159 ~ 164](./section21-kvo_kvc-question-159_164/)
+[Section 21, KVO and KVC](./section21-kvo_kvc-question/)
 
-[Section 22, Exception Handling 165 ~ 167](./section22-exeception_handling-question-165_167/)
+[Section 22, Exception Handling](./section22-exeception_handling-question/)
 
-[Section 23, Framework 168 ~ 170](./section23-framework-question-168_170/)
+[Section 23, Framework](./section23-framework-question/)
 
-[Section 24, Objective-C 171 ~ 184](./section24-objective_c-question-174_184/)
+[Section 24, Objective-C](./section24-objective_c-question/)

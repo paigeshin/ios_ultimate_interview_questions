@@ -1,6 +1,6 @@
-# Enum Questions 23 ~ 28
+# Enum Questions 1 ~ 6
 
-### 23) What is Enum?
+### 1) What is Enum?
 
 **Answer:**
 
@@ -21,7 +21,7 @@ weekDay = .saturday
 
 ```
 
-### 24) What is rawValue in enum?
+### 2) What is rawValue in enum?
 
 **Answer:**
 
@@ -44,7 +44,7 @@ print(weekDay.rawValue) // Mon
 print(WeekDay.sunday.rawValue) // Sun
 ```
 
-### 25) What is Associated values in Swift?
+### 3) What is Associated values in Swift?
 
 **Answer:**
 
@@ -75,20 +75,20 @@ enum Error {
 }
 ```
 
-### 26) Is enum `value type` or `reference type`?
+### 4) Is enum `value type` or `reference type`?
 
 **Answer:**
 
 - Enum is **Value Type**
 
-### 27) Value Type vs Reference Type
+### 5) Value Type vs Reference Type
 
 **Answer:**
 
 - Value type creates new instances and assigned when they passed to a method or assigned.
 - Reference type just shares address of that Object when they are passed as arguments or assigned.
 
-### 28) What is the difference between Swift Enum and Objective-C Enum?
+### 6) What is the difference between Swift Enum and Objective-C Enum?
 
 **Answer:**
 

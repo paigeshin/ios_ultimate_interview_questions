@@ -1,6 +1,6 @@
-# Functions 29 ~ 35
+# Functions 1 ~ 7
 
-### 29) What is function? What is the difference between function and Method?
+### 1) What is function? What is the difference between function and Method?
 
 **Answer:**
 
@@ -27,7 +27,7 @@ let car: Car = Car(
 car.method()
 ```
 
-### 30) What is `inout` parameter in Swift?
+### 2) What is `inout` parameter in Swift?
 
 - The input arguments of a method by default are `let` constants. To **change the value of input arguments the input keyword helps.**
 - To **pass the references** of the arguments to a method we use inout keyword.
@@ -59,7 +59,7 @@ let baseValue: Double = 20.0
 car.refuel(input: &baseValue)
 ```
 
-### 31) Instance method vs Type Method?
+### 3) Instance method vs Type Method?
 
 - Methods are two types: **Instance** methods and **Type** Methods.
 - **Instance methods** are tied up with the instance of a class. So access instance methods using object.
@@ -93,7 +93,7 @@ someClass.typeMethod()
 someClass.staticMethod()
 ```
 
-### 32) What is the difference between `class func` and `static func` ?
+### 4) What is the difference between `class func` and `static func` ?
 
 **Answer:**
 
@@ -133,7 +133,7 @@ class SubMyClass: MyClass {
 
 - if you use `class type method` with `final` keyword, there is no difference using `static type method`.
 
-### 33) What is variadic number of params method?
+### 5) What is variadic number of params method?
 
 **Answer:**
 
@@ -154,7 +154,7 @@ myClass.variadicMethod(numbers: 1, 2)
 myClass.variadicMethod(numbers: 1, 2, 3)
 ```
 
-### 34) How to set default value to a method input arguments?
+### 6) How to set default value to a method input arguments?
 
 **Answer:**
 
@@ -175,7 +175,7 @@ myClass.defaultValueMethod(a: 10) // a: 10, b: 10
 myClass.defaultValueMethod(a: 5, b: 3) // a: 5, b: 3
 ```
 
-### 35) Is Swift Function `Value Type` or `Reference Type` ?
+### 7) Is Swift Function `Value Type` or `Reference Type` ?
 
 **Answer:**
 
