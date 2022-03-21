@@ -1,6 +1,6 @@
-# oop questions 56 ~ 82
+# oop questions 1 ~ 27
 
-### 56) What are the Object Oriented Principles (OOPs)?
+### 1) What are the Object Oriented Principles (OOPs)?
 
 **Answer:**
 
@@ -11,7 +11,7 @@
 - Abstraction
 - Polymorphism
 
-### 57) What is Class? How to declare it?
+### 2) What is Class? How to declare it?
 
 **Answer:**
 
@@ -34,7 +34,7 @@ class TV {
 }
 ```
 
-### 58) What is Instance / Object?
+### 3) What is Instance / Object?
 
 **Answer:**
 
@@ -60,7 +60,7 @@ let object: Example = Example()
 
 ```
 
-### 59) What is Property?
+### 4) What is Property?
 
 **Answer:**
 
@@ -97,7 +97,7 @@ struct ExampleStruct {
 }
 ```
 
-### 60) What are the 4 types of Properties?
+### 5) What are the 4 types of Properties?
 
 **Answer:**
 
@@ -134,7 +134,7 @@ class Person {
 }
 ```
 
-### 61) What is stored Property?
+### 6) What is stored Property?
 
 **Answer:**
 
@@ -150,7 +150,7 @@ class Person {
 }
 ```
 
-### 62) What is Computed Property?
+### 7) What is Computed Property?
 
 **Answer:**
 
@@ -171,7 +171,7 @@ class Person {
 }
 ```
 
-### 63) What is Static Property or Type Property? How to declare them?
+### 8) What is Static Property or Type Property? How to declare them?
 
 **Answer:**
 
@@ -189,7 +189,7 @@ class Person {
 print(Person.Nationality) // Korea
 ```
 
-### 64) What is lazy property?
+### 9) What is lazy property?
 
 **Answer:**
 
@@ -206,7 +206,7 @@ let tv: TV = TV()
 print(tv.logo) // memory is allocated when called
 ```
 
-### 65) static keyword vs class keyword
+### 10) static keyword vs class keyword
 
 **Answer:**
 
@@ -233,7 +233,7 @@ class Person {
 }
 ```
 
-### 66) What are Property Observers?
+### 11) What are Property Observers?
 
 **Answer:**
 
@@ -263,7 +263,7 @@ person.age = 31
 // Age is changed: Optional(30)
 ```
 
-### 67) What is get and set? How to declare get only or set property?
+### 12) What is get and set? How to declare get only or set property?
 
 **Answer:**
 
@@ -314,13 +314,13 @@ person.days = 3000
 print(person.days) // 2920
 ```
 
-### 68) Can a property has only setter(set)?
+### 13) Can a property has only setter(set)?
 
 **Answer:**
 
 - **No,** Every property must contain a getter. We can declare get only property but not **set** only property.
 
-### 69) Difference between Class vs Structures?
+### 14) Difference between Class vs Structures?
 
 **Answer:**
 
@@ -335,26 +335,26 @@ print(person.days) // 2920
 - **Mutating Keyword is needed to modify the property values in Structure’s instance methods.**
 - No need of mutating keyword to modify the class variable’s value.
 
-### 70) What is Encapsulation? Example? Advantages?
+### 15) What is Encapsulation? Example? Advantages?
 
 **Answer:**
 
 - Encapsulation is process of binding instance variables / properties and methods together into a single unit.
 - **Class** is an example of encapsulation.
 
-### 71) What is Inheritance?
+### 16) What is Inheritance?
 
 **Answer:**
 
 - Deriving a class from another class or extending the functionality of a class by subclassing is known as Inheritance.
 
-### 72) What are the advantages of Inheritance?
+### 17) What are the advantages of Inheritance?
 
 **Answer:**
 
 - Reusing the existing functionality.
 
-### 73) What is Polymorphism?
+### 18) What is Polymorphism?
 
 **Answer:**
 
@@ -364,7 +364,7 @@ print(person.days) // 2920
 1. Static Polymorphism / Overloading
 2. Dynamic Polymorphism / Overriding
 
-### 74) What is Dynamic Polymorphism / Overriding?
+### 19) What is Dynamic Polymorphism / Overriding?
 
 **Answer)**
 
@@ -390,7 +390,7 @@ class Man: Person {
 }
 ```
 
-### 75) What is Static Polymorphism / Overloading?
+### 20) What is Static Polymorphism / Overloading?
 
 **Answer)**
 
@@ -429,20 +429,20 @@ class Person {
 }
 ```
 
-### 76) What is Abstraction? How to achieve it?
+### 21) What is Abstraction? How to achieve it?
 
 **Answer:**
 
 - Abstraction is the process of hiding **unnecessary** functionality and exposing **necessary** functionality.
 - Abstraction can be achieved using Access Specifiers.
 
-### 77) Does swift support multiple inheritances?
+### 22) Does swift support multiple inheritances?
 
 **Answer:**
 
 - No, Use protocols to achieve Multiple Inheritance.
 
-### 78) How to call a method with some delay?
+### 23) How to call a method with some delay?
 
 **Answer:**
 
@@ -479,7 +479,7 @@ class Perosn {
 }
 ```
 
-### 79) What is Base / Root class in Swift?
+### 24) What is Base / Root class in Swift?
 
 **Answer:**
 
@@ -487,7 +487,7 @@ class Perosn {
 - Classes can be created without any base class / parent class. In such cases, the current class itself is the base class.
 - If a class is derived from any class, then the super class is its base class.
 
-### 80) What is self and super keywords?
+### 25) What is self and super keywords?
 
 **Answer:**
 
@@ -526,13 +526,13 @@ class Woman: Person {
 }
 ```
 
-### 81) Can we achieve Overriding without inheritance?
+### 26) Can we achieve Overriding without inheritance?
 
 **Answer:**
 
 - No, overriding needs at least two classes and those two must be in inheritance relationship.
 
-### 82) When do you prefer struct over class?
+### 27) When do you prefer struct over class?
 
 **Answer:**
 
