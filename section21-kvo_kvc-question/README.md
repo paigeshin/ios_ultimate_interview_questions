@@ -1,13 +1,13 @@
-# KVO and KVC 159 ~ 164
+# KVO and KVC 1 ~ 6
 
-### 159) What is KVO? Advantages?
+### 1) What is KVO? Advantages?
 
 **Answer:**
 
 - **Key Value Observing** is a process of observing changes of an object.
 - KVO helps to update the UI when there is a change in the property value that is displayed in the user interface.
 
-### 160) What is KVC?
+### 2) What is KVC?
 
 **Answer:**
 
@@ -57,13 +57,13 @@ human.myAccount.depositAmount(amount: 300)
 // NSKeyValueObservedChange<Int>(kind: __C.NSKeyValueChange, newValue: Optional(275), oldValue: Optional(-25), indexes: nil, isPrior: false)
 ```
 
-### 161) Can we use KVC for Structures?
+### 3) Can we use KVC for Structures?
 
 **Answer:**
 
 - NO
 
-### 162) What is KVC?
+### 4) What is KVC?
 
 **Answer:**
 
@@ -114,14 +114,14 @@ human.myAccount.setValue(2000, forKey: "balance")
 print(human.myAccount.balance) // 2000
 ```
 
-### 163) What is dynamic keyword?
+### 5) What is dynamic keyword?
 
 **Answer:**
 
 - dynamic says to compiler that you want to use **Objective-C dynamic dispatch.**
 - Mainly used for KVO and for core data properties.
 
-### 164) What is @objc keyword?
+### 6) What is @objc keyword?
 
 **Answer:**
 
