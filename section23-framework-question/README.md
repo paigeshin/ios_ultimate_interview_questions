@@ -1,12 +1,12 @@
-# Framework 168 ~ 170
+# Framework 1 ~ 3
 
-### 168) What is Framework?
+### 1) What is Framework?
 
 **Answer:**
 
 - Framework is a package of header files, source files, binary files and resources.
 
-### 169) What is Static Library?
+### 2) What is Static Library?
 
 **Answer:**
 
@@ -16,7 +16,7 @@
 - Static libraries are loaded at **compile time** to the main program.
 - Adding static library increases the program size.
 
-### 170) What is Dynamic Library?
+### 3) What is Dynamic Library?
 
 **Answer:**
 
