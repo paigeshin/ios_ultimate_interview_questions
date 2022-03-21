@@ -1,6 +1,6 @@
-# Higher Order Functions 115 ~ 120
+# Higher Order Functions 1 ~ 6
 
-### 115) What are the higher order functions available in Swift?
+### 1) What are the higher order functions available in Swift?
 
 **“Super Quick”**
 
@@ -12,7 +12,7 @@
 - CompactMap
 - Reduce
 
-### 116) What is Filter and How does it work?
+### 2) What is Filter and How does it work?
 
 **Answer:**
 
@@ -29,7 +29,7 @@ var evenArr: [Int] = array.filter { $0 % 2 == 0 }
 print(eventArr) // 2, 4, 6, 8
 ```
 
-### 117) What is map and how does it work?
+### 3) What is map and how does it work?
 
 **Answer:**
 
@@ -47,7 +47,7 @@ var mappedArray: [Int] = arrap.map { value * 2 }
 print(mappedArray) // 2, 4, 6, 8, 10, 12, 14, 16, 18
 ```
 
-### 118) What is reduce and how does it work?
+### 4) What is reduce and how does it work?
 
 **Answer:**
 
@@ -64,7 +64,7 @@ result = array.reduce(result) { partialResult, value in
 print(result) // 45
 ```
 
-### 119) What is flatmap in Swift?
+### 5) What is flatmap in Swift?
 
 **Answer:**
 
@@ -77,7 +77,7 @@ let flatMappedArr: [Int] = array.flatMap { $0 }
 print(flatMappedArr) // 1, 2, 3, 4, 5, 6, 7, 8
 ```
 
-### 120) What is Compact Map in Swift?
+### 6) What is Compact Map in Swift?
 
 **Answer:**
 
