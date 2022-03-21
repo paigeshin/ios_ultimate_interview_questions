@@ -1,6 +1,6 @@
-# Extension 123 ~ 128
+# Extension 1 ~ 6
 
-### 123) What is extension?
+### 1) What is extension?
 
 **Answer:**
 
@@ -28,7 +28,7 @@ a.aFunc()
 a.bFunc()
 ```
 
-### 124) What is the difference between Subclassing (Inheritance) and Extension?
+### 2) What is the difference between Subclassing (Inheritance) and Extension?
 
 **Answer:**
 
@@ -58,7 +58,7 @@ a.aFunc()
 a.bFunc()
 ```
 
-### 125) Can we use stored property in extension?
+### 3) Can we use stored property in extension?
 
 **Answer:**
 
@@ -75,7 +75,7 @@ extension A {
 }
 ```
 
-### 126) Can we use computed property in extension?
+### 4) Can we use computed property in extension?
 
 **Answer:**
 
@@ -95,13 +95,13 @@ extension A {
 }
 ```
 
-### 127) Can we override existing methods using Extension?
+### 5) Can we override existing methods using Extension?
 
 **Answer:**
 
 - No, overriding the existing functionality is not allowed in Extension.
 
-### 128) When to choose Extensions over inheritance?
+### 6) When to choose Extensions over inheritance?
 
 **Answer:**
 
