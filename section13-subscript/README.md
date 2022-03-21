@@ -1,6 +1,6 @@
-# Subscript 109
+# Subscript 1
 
-### 109) What is subscript? How to declare subscript? Advantages?
+### 1) What is subscript? How to declare subscript? Advantages?
 
 **Answer:**
 
