@@ -1,6 +1,6 @@
-# Access Specifier 110 ~ 114
+# Access Specifier 1 ~ 5
 
-### 110) What is Access Specifier? What are the access specifiers available in Swift?
+### 1) What is Access Specifier? What are the access specifiers available in Swift?
 
 **Answer:**
 
@@ -12,13 +12,13 @@
 - open
 - internal
 
-### 111) What is the default Access Specifier in Swift?
+### 2) What is the default Access Specifier in Swift?
 
 **Answer:**
 
 - Internal
 
-### 112) private vs fileprivate access specifier?
+### 3) private vs fileprivate access specifier?
 
 **Answer:**
 
@@ -49,7 +49,7 @@ class B: A {
 }
 ```
 
-### 113) public vs open
+### 4) public vs open
 
 **Answer:**
 
@@ -60,7 +60,7 @@ class B: A {
 - A `public` class is *accessible* but *not subclassable* outside of the defining module.
 - A `public` class member is *accessible* but *not overridable* outside of the defining module.
 
-### 114) What is final keyword?
+### 5) What is final keyword?
 
 **Answer:**
 
