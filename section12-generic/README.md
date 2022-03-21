@@ -1,6 +1,6 @@
-# Generics 105 ~ 108
+# Generics 1 ~ 4
 
-### 105) What is Generic?
+### 1) What is Generic?
 
 **Answer:**
 
@@ -8,7 +8,7 @@
 - Generic is a feature of Swift which helps to write generalized programming.
 - A Datatype which is capable of holding different types of values. Generic Datatype is not specific to Particular Datatype Values.
 
-### 106) What is Generic Method? What is Generic Type?
+### 2) What is Generic Method? What is Generic Type?
 
 **Answer:**
 
@@ -65,7 +65,7 @@ let stringStack: Stack<String> = Stack()
 stringStack.push(item: "Hello")
 ```
 
-### 107) What is the difference between Generic and Any?
+### 3) What is the difference between Generic and Any?
 
 **Answer:**
 
@@ -109,7 +109,7 @@ intStack.sum() // 30
 
 ```
 
-### 108) What are the advantages of Generics?
+### 4) What are the advantages of Generics?
 
 **Answer:**
 
